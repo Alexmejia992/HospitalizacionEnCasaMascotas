@@ -1,5 +1,7 @@
-namespace HospiEnCasaMascotas.App.Dominio{
-    public enum GeneroMascota{
+namespace HospiEnCasaMascotas.App.Dominio
+{
+    public enum GeneroMascota
+    {
         macho,
         hembra
     }

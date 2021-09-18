@@ -1,3 +1,5 @@
+using system;
+
 namespace HospiEnCasaMascotas.App.Dominio
 {
      public class Veterinario : Persona
@@ -6,7 +8,7 @@ namespace HospiEnCasaMascotas.App.Dominio
 
         {
         public int NumPermiso {get;set;}
-        public string especialidad {get;set;}
+        public float horas_laborales {get;set;}
         
 
         }
