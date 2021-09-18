@@ -1,0 +1,5 @@
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Dominio\obj\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.csprojAssemblyReference.cache
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Dominio\obj\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Dominio\obj\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Dominio\obj\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.AssemblyInfo.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Dominio\obj\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.csproj.CoreCompileInputs.cache
