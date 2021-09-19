@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Hospital\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj",
       "projectName": "HospiEnCasaMascotas.App.Dominio",
-      "projectPath": "C:\\Hospital\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj",
+      "projectPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\blanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Hospital\\HospiEnCasaMascotas.App.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\blanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
