@@ -1,4 +1,4 @@
-using system;
+using System;
 
 namespace HospiEnCasaMascotas.App.Dominio
 {
@@ -6,7 +6,7 @@ namespace HospiEnCasaMascotas.App.Dominio
     {
         
 
-        {
+        
         public string Direccion { get; set; }
         
         public float Latitud { get; set; }
@@ -17,13 +17,13 @@ namespace HospiEnCasaMascotas.App.Dominio
         
         public PorpietarioDesignado propietario {get; set;}
 
-        public Veterinario veterinario{get; set;}
+        public Veterinario Veterinario{get; set;}
 
-        public Auxiliar auxiliar{get; set;}
+        public Auxiliar Auxiliar{get; set;}
 
         public HistoriaClinica historia {get; set;}
 
         public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
-        }
+        
     }
 }

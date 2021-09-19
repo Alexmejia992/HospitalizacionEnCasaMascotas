@@ -1,4 +1,4 @@
-using system;
+using System;
 
 namespace HospiEnCasaMascotas.App.Dominio
 {
@@ -6,9 +6,9 @@ namespace HospiEnCasaMascotas.App.Dominio
     {
         
 
-        {   
+          
         public string correo {get;set;}      
 
-        }
+        
     }
 }
