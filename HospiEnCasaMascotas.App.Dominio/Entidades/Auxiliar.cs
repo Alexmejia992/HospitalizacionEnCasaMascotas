@@ -2,7 +2,7 @@ using System;
 
 namespace HospiEnCasaMascotas.App.Dominio
 {
-     public class Veterinario : Persona
+     public class Auxiliar : Persona
     {
         
 

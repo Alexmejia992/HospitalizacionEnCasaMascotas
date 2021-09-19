@@ -16,7 +16,7 @@ namespace HospiEnCasaMascotas.App.Dominio
         
         public string Ciudad { get; set; }
         
-        public PorpietarioDesignado propietario {get; set;}
+        public PropietarioDesignado propietario {get; set;}
 
         public Veterinario Veterinario{get; set;}
 

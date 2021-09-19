@@ -1,9 +1,18 @@
 using Microsoft.EntityFrameworkCore;
+using HospiEnCasaMascotas.App.Dominio;
 
-namespace HospiEnCasaMascotas.Persistencia
+namespace HospiEnCasaMascotas.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet<Persona> Persona {get;set;}
+        public DbSet<Persona> Personas {get;set;}
+
+     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+     {
+         if (!optionsBuilder.IsConfigured)
+         {
+             optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HospiEnCasaMascotasData");
+         }
+     }   
     }
 }
