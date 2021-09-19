@@ -5,8 +5,7 @@ namespace HospiEnCasaMascotas.App.Dominio
      public class MascotaPaciente : Mascota
     {
         
-
-        {
+        
         public string Direccion { get; set; }
         
         
@@ -16,7 +15,7 @@ namespace HospiEnCasaMascotas.App.Dominio
         
         public string Ciudad { get; set; }
         
-        public PorpietarioDesignado propietario {get; set;}
+        public PropietarioDesignado propietario {get; set;}
 
         public Veterinario veterinario{get; set;}
 
@@ -25,6 +24,6 @@ namespace HospiEnCasaMascotas.App.Dominio
         public HistoriaClinica historia {get; set;}
 
         public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
-        }
+        
     }
 }
