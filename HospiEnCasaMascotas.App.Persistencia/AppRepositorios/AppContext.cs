@@ -5,7 +5,9 @@ namespace HospiEnCasaMascotas.App.Persistencia
 {
     public class AppContext : DbContext
     {
-        public DbSet<Persona> Personas {get;set;}
+        public DbSet<Persona> Personas {get;set;}      
+        public DbSet<PropietarioDesignado> PropietariosDesignados{get;set;}
+        public DbSet<HistoriaClinica> HistoriasClinicas {get;set;}
 
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
      {

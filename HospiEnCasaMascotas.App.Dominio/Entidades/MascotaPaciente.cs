@@ -1,11 +1,10 @@
-using system;
+using System;
 
 namespace HospiEnCasaMascotas.App.Dominio
 {
      public class MascotaPaciente : Mascota
     {
-        
-        
+           
         public string Direccion { get; set; }
         
         
