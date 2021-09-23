@@ -1,6 +1,6 @@
 # Hospitalizacion En Casa Mascotas
 
-***
+
 ## Scripts disponibles
 En el directorio principal de la carpeta HospiMascotas.App.Frontend
 
@@ -8,7 +8,7 @@ En el directorio principal de la carpeta HospiMascotas.App.Frontend
 **dotnet watch run**
 Corre el frontend del proyecto
 Abrir http://localhost:5001  
-***
+
 
 Estamos en repositorio principal sobre el cual vamos a desarrollar nuestro proyecto de **Hospitalización de mascotas**
 
