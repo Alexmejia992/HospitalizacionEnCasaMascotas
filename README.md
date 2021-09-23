@@ -5,8 +5,8 @@
 En el directorio principal de la carpeta HospiMascotas.App.Frontend
 
 
-**dotnet watch run**<br/
-Corre el frontend del proyecto<br/
+**dotnet watch run**<br/>
+Corre el frontend del proyecto<br/>
 Abrir http://localhost:5001  
 
 
