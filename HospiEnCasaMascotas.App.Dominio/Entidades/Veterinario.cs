@@ -5,6 +5,6 @@ namespace HospiEnCasaMascotas.App.Dominio
         
         public int NumPermiso {get;set;}
         public string especialidad {get;set;}
-                
+                   
     }
 }
