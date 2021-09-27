@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HospiEnCasaMascotas.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20210919013439_Enty2")]
-    partial class Enty2
+    [Migration("20210927120016_Entidades")]
+    partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -46,6 +46,10 @@ namespace HospiEnCasaMascotas.App.Persistencia.Migrations
                     b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Genero")
                         .HasColumnType("int");
 
@@ -58,6 +62,8 @@ namespace HospiEnCasaMascotas.App.Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Personas");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
                 });
 
             modelBuilder.Entity("HospiEnCasaMascotas.App.Dominio.SugerenciaCuidado", b =>
@@ -81,6 +87,16 @@ namespace HospiEnCasaMascotas.App.Persistencia.Migrations
                     b.HasIndex("HistoriaClinicaId");
 
                     b.ToTable("SugerenciaCuidado");
+                });
+
+            modelBuilder.Entity("HospiEnCasaMascotas.App.Dominio.PropietarioDesignado", b =>
+                {
+                    b.HasBaseType("HospiEnCasaMascotas.App.Dominio.Persona");
+
+                    b.Property<string>("correo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("PropietarioDesignado");
                 });
 
             modelBuilder.Entity("HospiEnCasaMascotas.App.Dominio.SugerenciaCuidado", b =>
