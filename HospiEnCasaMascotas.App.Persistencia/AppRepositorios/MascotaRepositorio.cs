@@ -53,7 +53,7 @@ namespace HospiEnCasaMascotas.App.Persistencia{
                 MascotaEncontrada.generoMascota=mascota.generoMascota;
                 MascotaEncontrada.Edad=mascota.Edad;
 
-                _appContext.SaveChanges();
+                _appContext.SaveChanges() ;
                 
 
             }
