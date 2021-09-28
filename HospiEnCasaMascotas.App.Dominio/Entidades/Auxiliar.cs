@@ -6,7 +6,7 @@ namespace HospiEnCasaMascotas.App.Dominio
     {
         
 
-        
+
         public int NumPermiso {get;set;}
         public float horas_laborales {get;set;}
         
