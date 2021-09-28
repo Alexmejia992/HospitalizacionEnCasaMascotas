@@ -36,7 +36,7 @@ namespace HospiEnCasaMascotas.App.Persistencia{
 
         public Auxiliar GetAuxiliar(int idAuxiliar)
         {
-            return _appContext.Auxiliares.FirstOrDefault(p =>p.Id==idAuxiliar);
+            return _appContext.Auxiliares.FirstOrDefault(a =>a.Id==idAuxiliar);
         }
 
         public Auxiliar UpdateAuxiliar(Auxiliar auxiliar)
