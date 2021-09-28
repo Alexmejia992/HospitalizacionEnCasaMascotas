@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "HospiEnCasaMascotas.App.Consola/1.0.0": {
         "dependencies": {
+          "HospiEnCasaMascotas.App.Dominio": "1.0.0",
           "HospiEnCasaMascotas.App.Persistencia": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.0"
         },
