@@ -1,7 +1,0 @@
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.csprojAssemblyReference.cache
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.AssemblyInfoInputs.cache
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.AssemblyInfo.cs
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.csproj.CoreCompileInputs.cache
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.RazorAssemblyInfo.cache
-C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\netcoreapp3.1\HospiEnCasaMascotas.App.Frontend.RazorAssemblyInfo.cs
