@@ -69,6 +69,8 @@ body {
   background-color: #152d35;
   color: #f8f8f8;
 }
+
+
 .btn-outline-primary:hover {
   background-color: red !important;
 }
