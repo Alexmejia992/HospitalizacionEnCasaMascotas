@@ -38,3 +38,4 @@
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/HospiEnCasaMascotas.App.Frontend.pdb
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/HospiEnCasaMascotas.App.Frontend.genruntimeconfig.cache
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/HospiEnCasaMascotas.App.Frontend.csproj.CopyComplete
+/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/Razor/Pages/Contact/Contact.cshtml.g.cs

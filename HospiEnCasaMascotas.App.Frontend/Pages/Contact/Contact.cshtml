@@ -1,0 +1,73 @@
+﻿@page
+@model HospiEnCasaMascotas.App.Frontend.Pages.ContactModel
+@{
+}
+<style type="text/css">
+body{
+    background-image: url(/images/contacts.jpg);
+}
+.navbar{
+    color: white;
+}
+.form-img{
+    background-image: url(/images/form-back.jpg);
+    height: 7rem ;
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.form-img::before{
+    position: absolute;
+    content: '';
+    
+    background-color: white;
+    height: 5rem;
+    width: 60%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.form-styled{
+    border-radius: 10px;
+    max-width: 40vw;
+    max-height: 80vh;
+
+    background-color: white;
+}
+.form-center{
+    padding: 3%;
+}
+.btn{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+}
+</style>
+    <div class="form-styled filter">
+        <div class="form-img"></div>
+        <form class="form-center mt-5 d-flex flex-column justify-content-center">
+            <div class="form-row">
+                <div class="col-md-6 col-sm-12">
+                    <label for="inputName">Nombre</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group mt-2">
+                <label for="exampleFormControlTextarea1">Déjanos tus comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-secondary" type="button">Enviar</button>
+            </div>
+        </form>
+    </div> 
