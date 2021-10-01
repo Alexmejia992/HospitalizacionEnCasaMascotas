@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/Pages/About/About.cshtml",
+      "TargetPath": "Pages\\About\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
