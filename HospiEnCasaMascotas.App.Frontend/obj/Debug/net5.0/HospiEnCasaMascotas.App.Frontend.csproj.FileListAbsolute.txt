@@ -79,3 +79,5 @@ C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnC
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.genruntimeconfig.cache
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.csproj.CopyComplete
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Login\Login.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Contact\Contact.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Registro\Registro.cshtml.g.cs

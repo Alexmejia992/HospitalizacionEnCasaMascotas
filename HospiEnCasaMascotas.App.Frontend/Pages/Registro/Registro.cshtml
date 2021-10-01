@@ -1,0 +1,158 @@
+﻿@page
+@model HospiEnCasaMascotas.App.Frontend.Pages.RegistroModel
+@{
+     ViewData["Title"] = "Registro";
+}
+<style type="text/css">
+
+.form-img{
+    background-image: url(/images/form-back.jpg);
+    height: 7rem ;
+    background-size: cover;
+    background-position: center center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.form-img::before{
+    position: absolute;
+    content: '';
+    
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.form-styled{
+    border-radius: 10px;
+    max-width: 40vw;
+    max-height: 80vh;
+    background-color: white;
+}
+.form-center{
+    padding: 3%;
+}
+
+#contenedor-R-form{
+    background-color: #fff;
+    max-width: 740px;
+    margin: 10px auto 0;
+    padding: 0;
+    color: "#006699";
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#Contenedor-R-form h2{
+    margin: 100px;
+    font-size: 22px;
+    color:"#006699";
+}
+
+#contenedor-R-form .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+    margin: 20px;
+	width: 100%;
+    float:left;
+    text-align: left;
+}
+
+#Contenedor-R-form .btn{
+    width: 56%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
+}
+
+</style>
+
+<div class="container" id="contenedor-R-form">
+ <div class="form-img"></div>
+
+<form class="form-center mt-5 d-flex flex-column justify-content-center">
+ <h2>Datos del Propietario</h2>
+<div class="row">
+
+    <div class="form-group col">
+        <label for="inputNombre">Nombre </label>        
+        <input type="text" class="form-control" placeholder="Ingresa tu Nombre">
+    </div>   
+     <div class="form-group col">
+         <label for="inputApellido">Apellido </label>
+         <input type="text" class="form-control" placeholder="Ingresa tu Apellido">            
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col">
+        <label for="inputTelefono">Teléfono </label>
+        <input type="text" class="form-control" placeholder="Ingresa tu Teléfono">
+    </div>
+    <div class="form-group col">
+         <label for="inputEmail">Email </label>
+         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email">       
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col">
+     <label for="SelectGenero">Genero</label>
+     <select class="form-control" id="SelectGenero">
+       <option disabled selected>Selecciona tu Genero</option>
+       <option>Masculino</option>
+       <option>Femenino</option>
+       <option>No Especifica</option>  
+     </select>
+    </div>
+    <div class="form-group col">
+
+    </div>
+</div>
+
+<h2>Datos de la Mascota</h2>
+<div class="row">
+
+    <div class="form-group col">
+        <label for="inputNombreMascota">Nombre </label>        
+        <input type="text" class="form-control" placeholder="Ingresa el Nombre">
+    </div>   
+     <div class="form-group col">
+         <label for="inputEspecie">Especie </label>
+         <input type="text" class="form-control" placeholder="Ingresa la Especie">            
+    </div>
+</div>
+<div class="row">
+
+    <div class="form-group col">
+        <label for="inputRaza">Raza </label>        
+        <input type="text" class="form-control" placeholder="Ingresa la Raza">
+    </div>   
+     <div class="form-group col">
+         <label for="inputEdad">Edad </label>
+         <input type="number" class="form-control" placeholder="Ingresa la Edad">            
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col">
+     <label for="SelectGeneroMascota">Genero</label>
+     <select class="form-control" id="SelectGeneroMascota">
+       <option disabled selected>Selecciona el Genero</option>
+       <option>Macho</option>
+       <option>Hembra</option> 
+     </select>
+    </div>
+    <div class="form-group col">
+
+    </div>
+</div>
+
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-lg btn-secondary" type="button">Continuar</button>
+            </div>
+</form>
+
+</div>
