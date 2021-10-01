@@ -70,6 +70,11 @@ body {
   color: #f8f8f8;
 }
 
+.btn-login {
+  background-color: #152d35;
+  color: #f8f8f8;
+  width: 100%;
+}
 
 .btn-outline-primary:hover {
   background-color: red !important;
