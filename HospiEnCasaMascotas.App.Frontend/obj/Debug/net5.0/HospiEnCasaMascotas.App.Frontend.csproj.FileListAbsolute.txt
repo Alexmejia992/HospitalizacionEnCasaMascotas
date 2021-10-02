@@ -87,3 +87,4 @@ C:/Users/blanc/OneDrive/Documentos/GitHub/HospitalizacionEnCasaMascotas/HospiEnC
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/Razor/Pages/MascotaPaciente/MascotaPaciente.cshtml.g.cs
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/Razor/Pages/Registro/Registro.cshtml.g.cs
 /home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/Debug/net5.0/Razor/Pages/About/About.cshtml.g.cs
+C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.pdb

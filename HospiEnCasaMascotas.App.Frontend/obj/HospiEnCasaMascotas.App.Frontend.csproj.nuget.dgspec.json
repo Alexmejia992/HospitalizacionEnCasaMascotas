@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/HospiEnCasaMascotas.App.Frontend.csproj": {}
+    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {}
   },
   "projects": {
-    "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/HospiEnCasaMascotas.App.Frontend.csproj": {
+    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/HospiEnCasaMascotas.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
         "projectName": "HospiEnCasaMascotas.App.Frontend",
-        "projectPath": "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/HospiEnCasaMascotas.App.Frontend.csproj",
-        "packagesPath": "/home/alex/.nuget/packages/",
-        "outputPath": "/home/alex/Desktop/HospitalizacionEnCasaMascotas/HospiEnCasaMascotas.App.Frontend/obj/",
+        "projectPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alex/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net5.0": {
-            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -36,26 +35,12 @@
       },
       "frameworks": {
         "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }
