@@ -5814,34 +5814,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\blanc\\.nuget\\packages\\": {}
+    "C:\\Users\\gaml_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\HospiEnCasaMascotas.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\HospiEnCasaMascotas.App.Persistencia.csproj",
       "projectName": "HospiEnCasaMascotas.App.Persistencia",
-      "projectPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\HospiEnCasaMascotas.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\blanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\HospiEnCasaMascotas.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\gaml_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\blanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gaml_\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj"
+            "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Dominio\\HospiEnCasaMascotas.App.Dominio.csproj"
             }
           }
         }
@@ -5892,7 +5890,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
