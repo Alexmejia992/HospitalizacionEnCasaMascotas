@@ -1,0 +1,115 @@
+﻿﻿﻿:root {
+  --fuenteHeading: "Roboto", sans-serif;
+  --fuenteParrafos: "Open Sans", sans-serif;
+  --fuenteLogo: "Lobster", cursive;
+  --gray: #e1e1e1;
+  --white: #f8f8f8;
+  --black: #0f0f0f;
+  --veryDarkBlue: #112031;
+  --LightCyan: #d4ecdd;
+}
+html {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
+  font-size: 62.5%;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  background-image: url(../images/borna-bevanda-w12NAMymqnk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* Utilidades */
+input{
+  box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.22);
+}
+select{
+  box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.22);
+}
+/* Globales */
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  width: min(
+    90%,
+    120rem
+  ); /* es igual a la propiedad definida en las lineas de arriba */
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: var(--white) !important;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar-brand span {
+  color: #112031 !important;
+}
+.btn-link {
+  
+  background-color: #d4ecdd;
+  color: #0f0f0f;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.22));
+}
+.btn-link:hover{
+  background-color: #d4ecdd;
+  filter: brightness(80%);
+  text-decoration: none;
+  color: #000000;
+}
+.btn-secondary {
+  background-color: #152d35;
+  color: #f8f8f8;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.22));
+}
+.btn-login {
+  background-color: #152d35;
+  color: #f8f8f8;
+  width: 100%;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.22));
+}
+
+
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*  */
+.img{
+  margin:10px auto;
+  border-radius:5px;
+  border: 1px solid #999;
+  padding:0;
+  width:100%;
+  height:100%;
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url(../images/img-h.jpg);
+  background-size: cover;
+  }
