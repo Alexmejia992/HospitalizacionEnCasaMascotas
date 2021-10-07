@@ -9,6 +9,8 @@ namespace HospiEnCasaMascotas.App.Frontend.Pages
 {
     public class RegistroModel : PageModel
     {
+
+        
         public void OnGet()
         {
         }
