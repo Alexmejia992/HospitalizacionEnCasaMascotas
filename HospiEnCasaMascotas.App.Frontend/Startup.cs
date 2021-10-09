@@ -27,7 +27,17 @@ namespace HospiEnCasaMascotas.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<iRepositorioMascota,MascotaRepositorio>();
-            
+            services.AddSingleton<iRepositorioMascotaPaciente,MascotaPacienteRepositorio>();
+            services.AddSingleton<iRepositorioAuxiliar,AuxiliarRepositorio>();
+            services.AddSingleton<iRepositorioHistoriaClinica,HistoriaClinicaRepositorio>();
+            services.AddSingleton<iRepositorioPersona,PersonaRepositorio>();
+            services.AddSingleton<iRepositorioPropietarioDesignado,PropietarioDesignadoRepositorio>();
+            services.AddSingleton<iRepositorioSignoVital,SignoVitalRepositorio>();
+            services.AddSingleton<iRepositorioSugerenciaCuidado,SugerenciaCuidadoRepositorio>();
+            services.AddSingleton<iRepositorioVeterinario,VeterinarioRepositorio>();
+
+
+
             
         }
 
