@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using HospiEnCasaMascotas.App.Persistencia;
+using HospiEnCasaMascotas.App.Dominio;
 
 namespace HospiEnCasaMascotas.App.Frontend
 {
@@ -24,6 +26,19 @@ namespace HospiEnCasaMascotas.App.Frontend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddSingleton<iRepositorioMascota,MascotaRepositorio>();
+            services.AddSingleton<iRepositorioMascotaPaciente,MascotaPacienteRepositorio>();
+            services.AddSingleton<iRepositorioAuxiliar,AuxiliarRepositorio>();
+            services.AddSingleton<iRepositorioHistoriaClinica,HistoriaClinicaRepositorio>();
+            services.AddSingleton<iRepositorioPersona,PersonaRepositorio>();
+            services.AddSingleton<iRepositorioPropietarioDesignado,PropietarioDesignadoRepositorio>();
+            services.AddSingleton<iRepositorioSignoVital,SignoVitalRepositorio>();
+            services.AddSingleton<iRepositorioSugerenciaCuidado,SugerenciaCuidadoRepositorio>();
+            services.AddSingleton<iRepositorioVeterinario,VeterinarioRepositorio>();
+
+
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
