@@ -1,22 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
-        "projectName": "HospiEnCasaMascotas.App.Frontend",
-        "projectPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
     "C:\\Users\\gaml_\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {}
   },
   "projects": {
@@ -31,7 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gaml_\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 9fb25a190a19ff8b6eb27b552f3ed5f1ee299d79
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -132,8 +115,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
-<<<<<<< HEAD
-=======
         }
       }
     },
@@ -212,7 +193,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
->>>>>>> 9fb25a190a19ff8b6eb27b552f3ed5f1ee299d79
         }
       }
     }
