@@ -126,7 +126,7 @@ body{
 <div class="row">
     <div class="form-group col">
      <label asp-for="propietarioDesignado.Genero">Genero</label>
-     <select asp-for="propietarioDesignado.Genero" id="SelectGenero">
+     <select class="form-control" asp-for="propietarioDesignado.Genero" id="exampleFormControlSelect1 id="SelectGenero">
        <option disabled selected>Selecciona tu Genero</option>
        <option>Masculino</option>
        <option>Femenino</option>
@@ -164,7 +164,7 @@ body{
 <div class="row">
     <div class="form-group col">
      <label asp-for="mascota.generoMascota">Genero</label>
-     <select asp-for="mascota.generoMascota" id="SelectGeneroMascota">
+     <select class="form-control" asp-for="mascota.generoMascota" id="exampleFormControlSelect1" id="SelectGeneroMascota">
        <option disabled selected>Selecciona el Genero</option>
        <option>Macho</option>
        <option>Hembra</option> 
@@ -175,7 +175,7 @@ body{
     </div>
 </div>
     <div class="d-flex justify-content-center">
-        <button class="btn btn-lg btn-secondary" type="submit">Continuar</button>
+        <button class="btn btn-lg btn-secondary mb-4" type="submit">Continuar</button>
     </div>
 </form>
 
