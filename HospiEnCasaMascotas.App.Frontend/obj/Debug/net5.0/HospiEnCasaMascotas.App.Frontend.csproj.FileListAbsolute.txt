@@ -123,3 +123,7 @@ C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnC
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\bin\Debug\net5.0\HospiEnCasaMascotas.App.Persistencia.dll
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\bin\Debug\net5.0\HospiEnCasaMascotas.App.Dominio.pdb
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\bin\Debug\net5.0\HospiEnCasaMascotas.App.Persistencia.pdb
+<<<<<<< Updated upstream
+=======
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Crear_Historia_Clinica\CrearHistoria.cshtml.g.cs
+>>>>>>> Stashed changes
