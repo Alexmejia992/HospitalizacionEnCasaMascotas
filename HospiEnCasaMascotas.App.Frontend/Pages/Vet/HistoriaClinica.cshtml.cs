@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace HospiEnCasaMascotas.App.Frontend.Pages
+namespace HospiEnCasaMascotas.App.Frontend.Pages.Vet
 {
-    public class VistaDoctorModel : PageModel
+    public class HistoriaClinicaModel : PageModel
     {
         public void OnGet()
         {

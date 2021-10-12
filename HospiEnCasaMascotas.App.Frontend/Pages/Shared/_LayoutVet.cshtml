@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HospiMascotas.App.Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body{
+            
+            background-image: url(../../wwwroot/images/BgVet.png);
+            background-position: center center;
+            background-size: cover;
+            @* HospiEnCasaMascotas.App.Frontend\wwwroot\images\BgVet.png *@
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menú
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Buscar</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Cerrar Sesión</a>
+            </div>
+        </div>
+    </nav>
+    <div class="buscador">
+        <div class="container container-small">
+            <form>
+                @* <div class="form-group">
+                    <label for="exampleInputEmail1">Buscar Por Nombre</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                </div> *@
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Buscar por ID</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Id">
+                </div>
+                <button type="submit" class="btn btn-secondary">Buscar</button>
+            </form>
+        </div>
+    </div>
+    <div class="d-flex min-vh-100 pt-4">
+        <aside class="aside ml-4">
+            <div class="container box-shadow" id="contenedor-R-form-izq">
+                <form class="form-center mt-5 d-flex flex-column justify-content-center">
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <a href="">
+                                <input type="image" src="/images/veterinario.png" width="100%" height="auto" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <input type="image" src="/images/ubicacion.png" width="100%" height="auto" />
+                        </div>
+                    </div>
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <input type="image" src="/images/veterinaria.png" width="100%" height="auto" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </aside>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <footer class="footer text-muted">
+        <div class="container">
+            &copy; 2021 - Tecnosoft -
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
