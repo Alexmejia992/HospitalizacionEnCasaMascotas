@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {}
+    "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {
+    "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
         "projectName": "HospiEnCasaMascotas.App.Frontend",
-        "projectPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henry\\Documents\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\HospiEnCasaMascotas.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\blanc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\blanc\\OneDrive\\Documentos\\GitHub\\HospitalizacionEnCasaMascotas\\HospiEnCasaMascotas.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\blanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
