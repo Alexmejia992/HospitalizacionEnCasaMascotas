@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HospiMascotas.App.Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+        integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/css/normalize.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body{
+            
+            background-image: url(../../wwwroot/images/BgVet.png);
+            background-position: center center;
+            background-size: cover;
+            @* HospiEnCasaMascotas.App.Frontend\wwwroot\images\BgVet.png *@
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">HOSPI<span>MASCOTAS</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" asp-page="/Index">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="About/About">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="Contact/Contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-page="Vet/VistaDoctor">Veterinarios</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                
+                <a asp-page="Login/Login" class="btn btn-link mr-3" role="button" aria-disabled="true">Login</a>
+                <a asp-page="Registro/Registro" class="btn btn-secondary" role="button" aria-disabled="true">Registro</a>
+            </form>
+        </nav>
+    </header>
+    <div class="d-flex min-vh-100 pt-4">
+        <aside class="aside ml-4">
+            <div class="container box-shadow" id="contenedor-R-form-izq">
+                <form class="form-center mt-5 d-flex flex-column justify-content-center">
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <a href="">
+                                <input type="image" src="/images/UserIcon" width="100%" height="auto" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <input type="image" src="/images/clinic-history.png" width="100%" height="auto" />
+                        </div>
+                    </div>
+                    <div class=form-group>
+                        <div class="d-flex justify-content-center">
+                            <input type="image" src="/images/veterinaria.png" width="100%" height="auto" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </aside>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <footer class="footer text-muted">
+        <div class="container">
+            &copy; 2021 - Tecnosoft -
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
