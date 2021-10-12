@@ -9,11 +9,11 @@ namespace HospiEnCasaMascotas.App.Persistencia{
     {
 
 
-        private readonly AppContext _appContext = new AppContext();
+        private readonly AppContext _appContext;
 
-        // public VeterinarioRepositorio(AppContext appContext){
-        //     _appContext=appContext;
-        // }
+        public VeterinarioRepositorio(AppContext appContext){
+            _appContext=appContext;
+        }
         public Veterinario AddVeterinario(Veterinario veterinario)
         {
             var VeterinarioAdicionada= _appContext.Veterinarios.Add(veterinario);

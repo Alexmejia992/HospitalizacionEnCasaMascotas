@@ -9,11 +9,11 @@ namespace HospiEnCasaMascotas.App.Persistencia{
     {
 
 
-        private readonly AppContext _appContext= new AppContext();
+        private readonly AppContext _appContext;
 
-        // public HistoriaClinicaRepositorio(AppContext appContext){
-        //     _appContext=appContext;
-        // }
+        public HistoriaClinicaRepositorio(AppContext appContext){
+            _appContext=appContext;
+        }
         public HistoriaClinica AddHistoriaClinica(HistoriaClinica historiaClinica)
         {
             var HistoriaClinicaAdicionada= _appContext.HistoriasClinicas.Add(historiaClinica);

@@ -9,11 +9,11 @@ namespace HospiEnCasaMascotas.App.Persistencia{
     {
 
 
-        private readonly AppContext _appContext= new AppContext();
+        private readonly AppContext _appContext;
 
-        // public SignoVitalRepositorio(AppContext appContext){
-        //     _appContext=appContext;
-        // }
+        public SignoVitalRepositorio(AppContext appContext){
+            _appContext=appContext;
+        }
         public SignoVital AddSignoVital(SignoVital signovital)
         {
             var SignoVitalAdicionada= _appContext.SignosVitales.Add(signovital);

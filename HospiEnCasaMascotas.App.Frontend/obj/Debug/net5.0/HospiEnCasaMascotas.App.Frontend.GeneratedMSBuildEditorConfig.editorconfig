@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = HospiEnCasaMascotas.App.Frontend
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Henry\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\
-=======
-build_property.ProjectDir = c:\Users\gaml_\Documents\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\
->>>>>>> 9fb25a190a19ff8b6eb27b552f3ed5f1ee299d79

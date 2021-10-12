@@ -8,11 +8,11 @@ namespace HospiEnCasaMascotas.App.Persistencia{
     public class AuxiliarRepositorio : iRepositorioAuxiliar
     {
 
-        private readonly AppContext _appContext= new AppContext();
+        private readonly AppContext _appContext;
 
-        // public AuxiliarRepositorio(AppContext appContext){
-        //     _appContext=appContext;
-        // }
+        public AuxiliarRepositorio(AppContext appContext){
+            _appContext=appContext;
+        }
         public Auxiliar AddAuxiliar(Auxiliar auxiliar)
         {
             var AuxiliarAdicionada= _appContext.Auxiliares.Add(auxiliar);
