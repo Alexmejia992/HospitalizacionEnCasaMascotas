@@ -79,12 +79,12 @@ body{
  <div class="form-img"></div>
 
 <form class="form-center mt-5 d-flex flex-column justify-content-center">
- <h2>Propietario</h2>
+ <h2>Mascota</h2>
 <div class="row">
 
     <div class="form-group col">
         <select class="form-control" id="SelectPropietario">
-       <option disabled selected>Seleccione el Propietario</option>
+       <option disabled selected>Seleccione ID de la Mascota</option>
        <option></option>
        <option></option>
        <option></option>  
@@ -95,36 +95,37 @@ body{
     </div>
 </div>
 
-<h2>Datos de la Mascota</h2>
+<h2>Veterinario Asignado</h2>
 <div class="row">
 
     <div class="form-group col">
-        <label for="inputNombreMascota">Nombre </label>        
-        <input type="text" class="form-control" placeholder="">
+        <select class="form-control" id="SelectPropietario">
+       <option disabled selected>Asigne un Veterinario</option>
+       <option></option>
+       <option></option>
+       <option></option>  
+     </select>
     </div>   
      <div class="form-group col">
-         <label for="inputEspecie">Especie </label>
-         <input type="text" class="form-control" placeholder="">            
+            
     </div>
 </div>
+
+<h2>Diagnóstico Mascota</h2>
 <div class="row">
 
     <div class="form-group col">
-        <label for="inputRaza">Raza </label>        
-        <input type="text" class="form-control" placeholder="">
-    </div>   
-     <div class="form-group col">
-         <label for="inputEdad">Edad </label>
-         <input type="number" class="form-control" placeholder="">            
+       <label for="exampleFormControlTextarea1">Ingrese Diagnóstico Paciente</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>           
     </div>
 </div>
-<div class="row">
-    <div class="form-group col">
-     <label for="SelectGeneroMascota">Genero</label>
-     <input type="text" class="form-control" placeholder="">
-    </div>
-    <div class="form-group col">
 
+<h2>Sugerencias Cuidado</h2>
+<div class="row">
+
+    <div class="form-group col">
+       <label for="exampleFormControlTextarea1">Ingrese Sugerencias Cuidado Paciente</label>
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>           
     </div>
 </div>
 

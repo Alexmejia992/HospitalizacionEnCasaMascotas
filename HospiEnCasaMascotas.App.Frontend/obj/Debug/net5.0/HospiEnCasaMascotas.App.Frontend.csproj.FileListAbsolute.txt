@@ -74,7 +74,6 @@ C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnC
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Login\Login.cshtml.g.cs
-C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\MascotaPaciente\MascotaPaciente.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Registro\Registro.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -89,7 +88,6 @@ C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnC
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.pdb
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.genruntimeconfig.cache
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\HospiEnCasaMascotas.App.Frontend.csproj.CopyComplete
-C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\RegistroVeterinario\RegistroVeterinario.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\VistaDoctor\VistaDoctor.cshtml.g.cs
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -127,3 +125,10 @@ C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnC
 =======
 C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Crear_Historia_Clinica\CrearHistoria.cshtml.g.cs
 >>>>>>> Stashed changes
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Shared\_LayoutVet.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Vet\HistoriaClinica.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Vet\MascotaPaciente.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Vet\RegistroVeterinario.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\Vet\VistaDoctor.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\User\VistaUsuario.cshtml.g.cs
+C:\Users\blanc\OneDrive\Documentos\GitHub\HospitalizacionEnCasaMascotas\HospiEnCasaMascotas.App.Frontend\obj\Debug\net5.0\Razor\Pages\User\Actualizar.cshtml.g.cs
