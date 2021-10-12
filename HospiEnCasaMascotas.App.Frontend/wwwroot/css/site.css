@@ -34,11 +34,27 @@ body {
   background-size: cover;
 }
 /* Utilidades */
+.box-shadow{
+  -webkit-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 13px -1px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
 input{
   box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.22);
 }
 select{
   box-shadow: 11px 12px 5px -8px rgba(0,0,0,0.22);
+}
+#contenedor-R-form-izq{
+  background-color: #fff;
+  width: 60px;
+  height: 266px;
+  
+  padding: 5px;
+  color: "#006699";
+ 
+ 
 }
 /* Globales */
 .contenedor {
@@ -78,7 +94,7 @@ select{
 }
 .btn-secondary {
   background-color: #152d35;
-  color: #f8f8f8;
+  color: #f8f8f8!important;
   filter: drop-shadow(0px 0px 10px rgba(0,0,0,.22));
 }
 .btn-login {
@@ -88,7 +104,35 @@ select{
   filter: drop-shadow(0px 0px 10px rgba(0,0,0,.22));
 }
 
+/* Vet */
+@media (min-width: 768px) {
+  .container-small {
+      width: 300px;
+  }
+  .container-large {
+      width: 970px;
+  } 
+} 
+@media (min-width: 992px) {
+  .container-small {
+      width: 500px;
+  }
+  .container-large {
+      width: 1170px;
+  } 
+} 
+@media (min-width: 1200px) {
+  .container-small {
+      width: 700px;
+  }
+  .container-large {
+      width: 1500px;
+  } 
+}
 
+.container-small, .container-large {
+  max-width: 100%;
+}
 
 /* Footer */
 .footer {
