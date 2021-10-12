@@ -6,6 +6,7 @@
 <style type="text/css">
 body{
     background-image: url(/images/registry.jpg);
+    
 }
 .form-img{
     background-image: url(/images/form-back.png);
@@ -15,7 +16,7 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     position: relative;
-    
+    z-index: 1;
 }
 .form-img::before{
     position: absolute;
@@ -31,6 +32,14 @@ body{
     border-top-right-radius: 70%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
+    z-index: 2;
+}
+.title{
+    position: absolute;
+    left: 50%;
+  transform: translate(-50%, -50%);
+    z-index: 3;
+
 }
 .form-styled{
     border-radius: 10px;
@@ -82,8 +91,8 @@ body{
 
 <form method="post">
 
-<h2 class="pt-8">Datos del Propietario</h2>
-<div class="row">
+<h2 class="pt-8 title text-center">Datos del Propietario</h2>
+<div class="row mt-4">
 
     <div class="form-group col">
         <label asp-for="propietarioDesignado.Nombre">Nombre </label>        
@@ -106,6 +115,16 @@ body{
 </div>
 <div class="row">
     <div class="form-group col">
+        <label asp-for="propietarioDesignado.NumeroTelefono">Contraseña </label>
+        <input asp-for="propietarioDesignado.NumeroTelefono" type="password" id="InputPassword1" class="form-control" placeholder="Ingresa tu Contraseña">
+    </div>
+    <div class="form-group col">
+         <label asp-for="propietarioDesignado.correo">Confirmar Contraseña </label>
+         <input asp-for="propietarioDesignado.correo" type="password" id="InputPassword2" class="form-control" id="exampleInputEmail1"  placeholder="Confirma tu contraseña">       
+    </div>
+</div>
+<div class="row">
+    <div class="form-group col">
      <label asp-for="propietarioDesignado.Genero">Genero</label>
      <select asp-for="propietarioDesignado.Genero" id="SelectGenero">
        <option disabled selected>Selecciona tu Genero</option>
@@ -119,7 +138,7 @@ body{
     </div>
 </div>
 
-<h2>Datos de la Mascota</h2>
+<h2 class="text-center">Datos de la Mascota</h2>
 <div class="row">
 
     <div class="form-group col">

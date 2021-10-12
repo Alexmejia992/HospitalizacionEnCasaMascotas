@@ -41,12 +41,18 @@
 .form-center{
     padding: 3%;
 }
-
+.link{
+    color: white;
+}
+.link:hover {
+    color: #212529;
+    text-decoration: none;
+}
 </style>
 <div class="form-styled filter">
         <div class="form-img"></div>
         <form class="form-center mt-5 d-flex flex-column justify-content-center"
-            action="mailto:someone@example.com" 
+            
             method="post" 
             enctype="text/plain">
             <h3 class="card-title text-center mb-4 fw-light fs-5">Login</h3>
@@ -64,10 +70,10 @@
             </div>
             <small id="IngresoHelp" class="form-text text-muted">O sino eres Usuario Registrado</small>
             <div class="d-flex justify-content-center">
-                <button class="btn btn-login" type="button">REGISTRO</button>
+                <a class="btn btn-login link" asp-page="/Registro/Registro">REGISTRO</a>
             </div>
         </form>
-    </div> 
+    </div>  
 
 
 
