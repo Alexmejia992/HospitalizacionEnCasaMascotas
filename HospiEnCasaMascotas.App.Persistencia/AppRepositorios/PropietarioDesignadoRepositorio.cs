@@ -51,6 +51,7 @@ namespace HospiEnCasaMascotas.App.Persistencia{
                 PropietarioDesignadoEncontrada.NumeroTelefono=propietariodesignado.NumeroTelefono;
                 PropietarioDesignadoEncontrada.Genero=propietariodesignado.Genero;
                 PropietarioDesignadoEncontrada.correo=propietariodesignado.correo;
+                PropietarioDesignadoEncontrada.contraseña=propietariodesignado.contraseña;
 
 
                 _appContext.SaveChanges() ;
