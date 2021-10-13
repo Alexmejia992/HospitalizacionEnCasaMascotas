@@ -21,12 +21,15 @@
     <style>
         body{
             
-            background-image: url(../../wwwroot/images/BgVet.png);
-            background-position: center center;
-            background-size: cover;
+            background-image: url(/images/vet.png);
+            background-position: bottom right;
+            background-size: 30%;
             @* HospiEnCasaMascotas.App.Frontend\wwwroot\images\BgVet.png *@
         }
+        #hideform {display:none;}
+
     </style>
+    
 </head>
 
 <body>
@@ -36,13 +39,13 @@
                 Menú
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Buscar</a>
+                <a class="dropdown-item" href="#" id="toggleform" >Buscar Paciente</a>
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Cerrar Sesión</a>
             </div>
         </div>
     </nav>
-    <div class="buscador">
+    <div id="hideform" class="buscador">
         <div class="container container-small">
             <form>
                 @* <div class="form-group">
@@ -57,30 +60,28 @@
             </form>
         </div>
     </div>
-    <div class="d-flex min-vh-100 pt-4">
-        <aside class="aside ml-4">
-            <div class="container box-shadow" id="contenedor-R-form-izq">
-                <form class="form-center mt-5 d-flex flex-column justify-content-center">
+    <div class="d-flex min-vh-100 pt-4" >
+            <div class="container box-shadow"  id="contenedor-R-form-izq">
+                <form  class="form-center mt-5 d-flex flex-column justify-content-center">
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
                             <a href="">
-                                <input type="image" src="/images/veterinario.png" width="100%" height="auto" />
+                                <input rel="txtTooltip" title="Menú Principal" data-toggle="tooltip" data-placement="right" type="image" src="/images/veterinario.png" id="MenuPrincipal"  width="100%" height="auto" />
                             </a>
                         </div>
                     </div>
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
-                            <input type="image" src="/images/ubicacion.png" width="100%" height="auto" />
+                            <input rel="txtTooltip" title="ubicación del paciente" data-toggle="tooltip" data-placement="right" type="image" src="/images/ubicacion.png" width="100%" height="auto" />
                         </div>
                     </div>
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
-                            <input type="image" src="/images/veterinaria.png" width="100%" height="auto" />
+                            <input rel="txtTooltip" title="Pendiente" data-toggle="tooltip" data-placement="right" type="image" src="/images/veterinaria.png" width="100%" height="auto" />
                         </div>
                     </div>
                 </form>
-            </div>
-        </aside>
+            </div>     
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
@@ -96,7 +97,21 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    <script>
+        $(document).ready(function() {
+        $('input[rel="txtTooltip"]').tooltip();
+        });
 
+        $( document ).ready(function() {
+            console.log( "document loaded" );
+        });
+        $( "#toggleform" ).on( "click", function() {
+            $('#hideform').toggle();
+        });
+        
+        
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

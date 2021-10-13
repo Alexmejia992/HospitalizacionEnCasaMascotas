@@ -47,20 +47,20 @@
                         <a class="nav-link" asp-page="/Index">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-page="About/About">Sobre Nosotros</a>
+                        <a class="nav-link" asp-page="/About/About">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-page="Contact/Contact">Contacto</a>
+                        <a class="nav-link" asp-page="/Contact/Contact">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-page="Vet/VistaDoctor">Usuarios</a>
+                        <a class="nav-link" asp-page="/Vet/VistaDoctor">Usuarios</a>
                     </li>
                 </ul>
             </div>
             <form class="form-inline">
                 
-                <a asp-page="Login/Login" class="btn btn-link mr-3" role="button" aria-disabled="true">Login</a>
-                <a asp-page="Registro/Registro" class="btn btn-secondary" role="button" aria-disabled="true">Registro</a>
+                <a asp-page="/Login/Login" class="btn btn-link mr-3" role="button" aria-disabled="true">Login</a>
+                <a asp-page="/Registro/Registro" class="btn btn-secondary" role="button" aria-disabled="true">Registro</a>
             </form>
         </nav>
     </header>
@@ -71,18 +71,18 @@
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
                             <a asp-page="User/Actualizar">
-                                <input type="image" src="/images/UserIcon.png" width="100%" height="auto" />
+                                <input rel="txtTooltip" title="Datos Personales" data-toggle="tooltip" data-placement="right" type="image" src="/images/UserIcon.png" width="100%" height="auto" />
                             </a>
                         </div>
                     </div>
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
-                            <input type="image" src="/images/clinic-history.png" width="100%" height="auto" />
+                            <input rel="txtTooltip" title="Historia Clínica" data-toggle="tooltip" data-placement="right" type="image" src="/images/clinic-history.png" width="100%" height="auto" />
                         </div>
                     </div>
                     <div class=form-group>
                         <div class="d-flex justify-content-center">
-                            <input type="image" src="/images/veterinaria.png" width="100%" height="auto" />
+                            <input rel="txtTooltip" title="Pendiente" data-toggle="tooltip" data-placement="right" type="image" src="/images/veterinaria.png" width="100%" height="auto" />
                         </div>
                     </div>
                 </form>
@@ -103,6 +103,11 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function() {
+            $('input[rel="txtTooltip"]').tooltip();
+        });
+    </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
