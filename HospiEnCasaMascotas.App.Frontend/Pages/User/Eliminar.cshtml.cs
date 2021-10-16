@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasaMascotas.App.Persistencia;
 using HospiEnCasaMascotas.App.Dominio;
 
-
-namespace HospiEnCasaMascotas.App.Frontend.Pages.Vet
+namespace HospiEnCasaMascotas.App.Frontend.Pages.User
 {
-    public class ActualizarModel : PageModel
+    public class EliminarModel : PageModel
     {
         private readonly iRepositorioPropietarioDesignado _RepoPropietario;
 
@@ -21,7 +20,7 @@ namespace HospiEnCasaMascotas.App.Frontend.Pages.Vet
         public PropietarioDesignado propietarioDesignado {get; set;}
 
 
-        public ActualizarModel(iRepositorioPropietarioDesignado _RepoPropietario, iRepositorioMascota _RepoMascota)
+        public EliminarModel(iRepositorioPropietarioDesignado _RepoPropietario, iRepositorioMascota _RepoMascota)
         {
             this._RepoPropietario=_RepoPropietario;
             this._RepoMascota = _RepoMascota;
@@ -41,11 +40,11 @@ namespace HospiEnCasaMascotas.App.Frontend.Pages.Vet
             }
 
         }
-        public IActionResult OnPost(Mascota mascota, PropietarioDesignado propietarioDesignado){
-
-            _RepoMascota.UpdateMascota(mascota);
-            _RepoPropietario.UpdatePropietarioDesignado(propietarioDesignado);
-            return RedirectToPage("/User/VistaUsuario");
+        public IActionResult OnPost(int Id){
+            
+            _RepoMascota.DeleteMascota(Id);
+            _RepoPropietario.DeletePropietarioDesignado(Id);
+            return RedirectToPage("/Registro/Registro");
 
          }
     }

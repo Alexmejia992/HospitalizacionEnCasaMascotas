@@ -1,0 +1,194 @@
+﻿@page
+@model HospiEnCasaMascotas.App.Frontend.Pages.User.EliminarModel
+@{
+    ViewData["Title"] = "Eliminar Propietario y Mascota";
+    @* Layout = "~/Pages/Shared/_LayoutVet.cshtml"; *@
+}
+
+<style type="text/css">
+    body {
+        background-image: url(/images/img-user.png);
+    }
+
+    .form-img {
+        background-image: url(/images/form-back.png);
+        height: 7rem;
+        background-size: cover;
+        background-position: center center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+
+    }
+
+    .form-img::before {
+        position: absolute;
+        content: '';
+
+        background-color: white;
+        height: 5rem;
+        width: 60%;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        border-top-left-radius: 70%;
+        border-top-right-radius: 70%;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    .title {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+
+    }
+
+    .form-styled {
+        border-radius: 10px;
+        max-width: 40vw;
+        max-height: 80vh;
+        background-color: white;
+    }
+
+    .form-center {
+        padding: 3%;
+    }
+
+    #contenedor-R-form {
+        background-color: #fff;
+        max-width: 740px;
+        margin: 10px auto 0;
+        padding: 0;
+        color: "#006699";
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-bottom: 5rem;
+    }
+
+    #Contenedor-R-form h2 {
+        margin: 100px;
+        font-size: 22px;
+        color: "#006699";
+    }
+
+    #contenedor-R-form .form-group {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin: 20px;
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    #Contenedor-R-form .btn {
+        width: 56%;
+        margin: 20px auto 0;
+        display: block;
+        outline: none;
+    }
+</style>
+
+<div class="container" id="contenedor-R-form">
+    <div class="form-img"></div>
+
+    <form method="post">
+        <h2 class="pt-8 title text-center">Datos del Propietario</h2>
+        <div class="row mt-4">
+
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.Id">ID </label>
+                <input asp-for="propietarioDesignado.Id" class="form-control" placeholder="" required="required"
+                    readonly>
+            </div>
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.Nombre">Nombre </label>
+                <input asp-for="propietarioDesignado.Nombre" class="form-control" placeholder="" required="required">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.Apellidos">Apellido </label>
+                <input asp-for="propietarioDesignado.Apellidos" class="form-control" placeholder="" required="required">
+            </div>
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.correo">Correo </label>
+                <input asp-for="propietarioDesignado.correo" class="form-control" placeholder="" required="required"
+                    readonly>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.contraseña">Contraseña </label>
+                <input asp-for="propietarioDesignado.contraseña" class="form-control" placeholder="" required="required"
+                    readonly>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.Genero">Genero</label>
+                <select class="form-control" asp-for="propietarioDesignado.Genero" id="exampleFormControlSelect1"
+                    id="SelectGeneroMascota" required="required">
+                    <option disabled selected>Selecciona el Genero</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+            </div>
+
+            <div class="form-group col">
+                <label asp-for="propietarioDesignado.NumeroTelefono">Teléfono </label>
+                <input asp-for="propietarioDesignado.NumeroTelefono" class="form-control" placeholder=""
+                    required="required">
+            </div>
+        </div>
+
+        <h2 class="text-center">Datos de la Mascota</h2>
+        <div class="row">
+
+            <div class="form-group col">
+                <label asp-for="mascota.Id">ID </label>
+                <input asp-for="mascota.Id" class="form-control" placeholder="" required="required" readonly>
+            </div>
+            <div class="form-group col">
+                <label asp-for="mascota.NombreMascota">Nombre </label>
+                <input asp-for="mascota.NombreMascota" class="form-control" placeholder="Ingresa el Nombre"
+                    required="required">
+            </div>
+            <div class="form-group col">
+                <label asp-for="mascota.Especie">Especie </label>
+                <input asp-for="mascota.Especie" class="form-control" placeholder="Ingresa la Especie"
+                    required="required">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label asp-for="mascota.Raza">Raza </label>
+                <input asp-for="mascota.Raza" class="form-control" placeholder="Ingresa la Raza" required="required">
+            </div>
+            <div class="form-group col">
+                <label asp-for="mascota.Edad">Edad </label>
+                <input asp-for="mascota.Edad" class="form-control" placeholder="Ingresa la Edad" required="required">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col">
+                <label asp-for="mascota.generoMascota">Genero</label>
+                <select class="form-control" asp-for="mascota.generoMascota" id="exampleFormControlSelect1"
+                    id="SelectGeneroMascota" required="required">
+                    <option disabled selected>Selecciona el Genero</option>
+                    <option>Macho</option>
+                    <option>Hembra</option>
+                </select>
+            </div>
+            <div class="form-group col">
+
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <button class="btn btn-lg btn-secondary" type="submit">Eliminar</button> 
+
+    </form>
+
+</div>

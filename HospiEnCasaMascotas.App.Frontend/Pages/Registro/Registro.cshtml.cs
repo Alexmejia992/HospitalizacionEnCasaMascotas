@@ -17,10 +17,6 @@ namespace HospiEnCasaMascotas.App.Frontend.Pages
         public Mascota mascota { get; set; }
         public PropietarioDesignado propietarioDesignado {get; set;}
 
-        // public RegistroModel(iRepositorioPropietarioDesignado _RepoPropietario,iR)
-        // {
-        //     this._RepoPropietario=_RepoPropietario;
-        // }
         public RegistroModel(iRepositorioMascota _RepoMascota,iRepositorioPropietarioDesignado _RepoPropietario)
         {
             this._RepoMascota = _RepoMascota;
@@ -36,17 +32,8 @@ namespace HospiEnCasaMascotas.App.Frontend.Pages
         {
             _RepoMascota.AddMascota(mascota);
             _RepoPropietario.AddPropietarioDesignado(propietarioDesignado);
-            return Page();
+            return RedirectToPage("/User/VistaUsuario");
 
         }
-
-        // public IActionResult OnPost(PropietarioDesignado propietarioDesignado)
-        // {
-        //      _RepoPropietario.AddPropietarioDesignado(propietarioDesignado);
-        //      return Page();
-           
-
-        //  }
-
     }
 }

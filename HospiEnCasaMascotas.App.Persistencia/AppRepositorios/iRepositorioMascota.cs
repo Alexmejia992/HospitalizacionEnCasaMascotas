@@ -10,7 +10,7 @@ namespace HospiEnCasaMascotas.App.Persistencia
 
     Mascota AddMascota(Mascota mascota);
 
-    Mascota UpdateMascota  (Mascota mascota);
+    Mascota UpdateMascota(Mascota mascota);
 
     void DeleteMascota(int idMascota);
 
