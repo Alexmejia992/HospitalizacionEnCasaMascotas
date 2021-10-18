@@ -1,7 +1,8 @@
 ﻿@page
-@model HospiEnCasaMascotas.App.Frontend.Pages.Vet.RegistroVeterinarioModel
+@model HospiEnCasaMascotas.App.Frontend.Pages.Vet.EliminarVModel
 @{
-    ViewData["Title"] = "Registro Veterinario";
+     ViewData["Title"] = "Eliminar Veterinario";
+    @* Layout = "~/Pages/Shared/_LayoutVet.cshtml"; *@
 }
 <style type="text/css">
     body {
@@ -78,12 +79,14 @@
         outline: none;
     }
 </style>
-
+<form class="form-center mt-5 d-flex flex-column justify-content-center" method="post">
+<div class="form-group col">
+        @* <label asp-for="veterinario.Id" type="Hidden">ID </label>         *@
+        <input asp-for="veterinario.Id" class="form-control" placeholder="" required="required" readonly type="hidden">
+    </div>
 <div class="container" id="contenedor-R-form">
     <div class="form-img"></div>
-
-    <form class="form-center mt-5 d-flex flex-column justify-content-center" method="post">
-        <h2>Datos del Veterinario</h2>
+        <h2 class="form-center mt-5 d-flex flex-column justify-content-center" >Datos del Veterinario</h2>
         <div class="row">
 
             <div class="form-group col">
@@ -108,11 +111,11 @@
         <div class="row">
             <div class="form-group col">
                 <label asp-for="veterinario.correo">Email </label>
-                <input asp-for="veterinario.correo" class="form-control" placeholder="Ingresa tu Correo" required="required">
+                <input asp-for="veterinario.correo" class="form-control" placeholder="Ingresa tu Correo" required="required" readonly>
             </div>
             <div class="form-group col">
                 <label asp-for="veterinario.contraseña">Contraseña </label>
-                <input asp-for="veterinario.contraseña" class="form-control" type="password" required="required" placeholder="Ingresa tu contraseña">
+                <input asp-for="veterinario.contraseña" class="form-control" required="required" placeholder="Ingresa tu contraseña" readonly>
             </div>
         </div>
         <div class="row">
@@ -143,7 +146,7 @@
         </div>
 
         <div class="d-flex justify-content-center">
-            <button class="btn btn-lg btn-secondary" type="submit">Registrar</button>
+            <button class="btn btn-lg btn-secondary" type="submit">Eliminar</button>
         </div>
     </form>
 

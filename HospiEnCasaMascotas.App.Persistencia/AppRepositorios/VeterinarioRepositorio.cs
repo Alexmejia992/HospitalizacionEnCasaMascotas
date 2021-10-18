@@ -52,6 +52,8 @@ namespace HospiEnCasaMascotas.App.Persistencia{
                 VeterinarioEncontrada.Genero=veterinario.Genero;
                 VeterinarioEncontrada.NumPermiso=veterinario.NumPermiso;
                 VeterinarioEncontrada.especialidad=veterinario.especialidad;
+                VeterinarioEncontrada.correo=veterinario.correo;
+                VeterinarioEncontrada.contraseña=veterinario.contraseña;
                 
 
                 _appContext.SaveChanges() ;

@@ -18,6 +18,30 @@
 
     <link rel="stylesheet" href="~/css/normalize.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+        .links a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            padding: 6px;
+        }
+
+        .links {
+            background-color: white;
+            width: 100px;
+            display: none;
+        }
+
+        .links a:hover {
+            background-color: lightblue;
+        }
+
+        .desplegable:hover .links {
+            display: block;
+            position: absolute;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,9 +72,14 @@
                 </ul>
             </div>
             <form class="form-inline">
-                
                 <a asp-page="/Login/Login" class="btn btn-link mr-3" role="button" aria-disabled="true">Login</a>
-                <a asp-page="/Registro/Registro" class="btn btn-secondary" role="button" aria-disabled="true">Registro</a>
+                <div class="desplegable">
+                    <button class="btn btn-secondary">Registro</button>
+                    <div class="links">
+                        <a asp-page="/Registro/Registro">Registro Usuario</a>
+                        <a asp-page="/Vet/RegistroVeterinario">Registro Veterinario</a>
+                    </div>
+                </div>
             </form>
         </nav>
     </header>

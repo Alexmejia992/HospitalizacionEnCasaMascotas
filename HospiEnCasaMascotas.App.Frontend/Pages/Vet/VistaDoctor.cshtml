@@ -3,66 +3,86 @@
 @{
     ViewData["Title"] = "Veterinario";
     Layout = "~/Pages/Shared/_LayoutVet.cshtml";
-    
+
 }
 <style type="text/css">
+    #contenedor-R-form-der {
+        background-color: #fff;
+        max-width: 680px;
+        height: 266px;
 
-#contenedor-R-form-der{
-    background-color: #fff;
-    max-width: 680px;
-    height: 266px;
-   
-    padding: 50px;
-    color: "#006699";
-    
-}
+        padding: 50px;
+        color: "#006699";
 
-#Contenedor-R-form h2{
-    margin: 100px;
-    font-size: 22px;
-    color:"#006699";
-    padding: 10px;
-}
+    }
 
-#contenedor-R-form .form-group{
-	margin-bottom: 20px;
-    margin-left:20px;
-    margin: 20px;
-	width: 100%;
-    float:left;
-    text-align: left;
-}
+    #Contenedor-R-form h2 {
+        margin: 100px;
+        font-size: 22px;
+        color: "#006699";
+        padding: 10px;
+    }
 
-#Contenedor-R-form .btn{
-    width: 56%;
-    margin: 20px auto 0;
-    display: block;
-    outline: none;
-}
+    #contenedor-R-form .form-group {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin: 20px;
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
 
-.btn-left{
-        background-image:url(/images/veterinario.png);
-        background-repeat:no-repeat;
-        height:60px;
-        width:70px;
-        background-position:center;
+    #Contenedor-R-form .btn {
+        width: 56%;
+        margin: 20px auto 0;
+        display: block;
+        outline: none;
+    }
+
+    .btn-left {
+        background-image: url(/images/veterinario.png);
+        background-repeat: no-repeat;
+        height: 60px;
+        width: 70px;
+        background-position: center;
         border: none;
     }
 </style>
 
-  <div class="container box-shadow" id="contenedor-R-form-der">
-      <div class="form-center mt-5 d-flex flex-column justify-content-center align-self-center">      
-            <div class="row">
-                 <div class="form-group col">
-                    <div class="d-flex justify-content-center">    
-                        <a class="btn btn-lg btn-secondary" asp-page="HistoriaClinica" type="button">Historia Clinica</a>
+@foreach (var v in @Model.Veterinarios)
+{
+    if (v.Id == 2)
+    {
+
+        <div class="container box-shadow" id="contenedor-R-form-der">
+            <div class="form-center mt-5 d-flex flex-column justify-content-center align-self-center">
+                <div class="row">
+                    <div class="form-group col">
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-lg btn-secondary" asp-page="ActualizarV" asp-route-id="@v.Id"
+                        type="button">Actualizar Datos</a>
+                            <div class="form-group col">
+                                <div class="d-flex justify-content-center">
+                                    <a class="btn btn-lg btn-secondary" asp-page="EliminarV" asp-route-id="@v.Id"
+                                type="button">Eliminar Usuario</a>
+                                </div>
+                            </div>
+                        </div>
+                         </div>
+                          </div>
+                        <div class="form-group col">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-lg btn-secondary" asp-page="HistoriaClinica" type="button">Historia Clinica</a>
+                                <div class="form-group col">
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn btn-lg btn-secondary" type="button">Signo Vital</a>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                  <div class="form-group col">
-                    <div class="d-flex justify-content-center">
-                        <a class="btn btn-lg btn-secondary" type="button">Signo Vital</a>
-                    </div>
-                  </div>
+                </div>
             </div>
-      </div>
-  </div> 
+        </div>
+    }
+}
+</div>
+</div>

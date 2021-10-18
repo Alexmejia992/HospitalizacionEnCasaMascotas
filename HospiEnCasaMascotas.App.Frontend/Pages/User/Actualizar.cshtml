@@ -85,37 +85,42 @@ body{
 
 </style>
 
+<form method="post">
+
+<div class="form-group col">
+        @* <label asp-for="propietarioDesignado.Id" type="Hidden">ID </label>         *@
+        <input asp-for="propietarioDesignado.Id" class="form-control" placeholder="" required="required" readonly type="hidden">
+    </div>
+
 <div class="container" id="contenedor-R-form">
  <div class="form-img"></div>
 
-<form method="post">
+
 <h2 class="pt-8 title text-center">Datos del Propietario</h2>
 <div class="row mt-4">
 
     <div class="form-group col">
-        <label asp-for="propietarioDesignado.Id">ID </label>        
-        <input asp-for="propietarioDesignado.Id" class="form-control" placeholder="" required="required" readonly>
-    </div> 
-    <div class="form-group col">
         <label asp-for="propietarioDesignado.Nombre">Nombre </label>        
         <input asp-for="propietarioDesignado.Nombre" class="form-control" placeholder="" required="required">
     </div>
-</div> 
-<div class="row mt-4">   
     <div class="form-group col">
          <label asp-for="propietarioDesignado.Apellidos">Apellido </label>
          <input asp-for="propietarioDesignado.Apellidos" class="form-control" placeholder="" required="required">            
-    </div>  
+    </div> 
+</div> 
+<div class="row mt-4">   
+    
     <div class="form-group col">
          <label asp-for="propietarioDesignado.correo">Correo </label>
          <input asp-for="propietarioDesignado.correo" class="form-control" placeholder="" required="required" readonly>            
     </div>
-</div>
-<div class="row mt-4">    
     <div class="form-group col">
          <label asp-for="propietarioDesignado.contraseña">Contraseña </label>
          <input asp-for="propietarioDesignado.contraseña" class="form-control" placeholder="" required="required" readonly>            
     </div>
+</div>
+<div class="row mt-4">    
+    
 </div>
 <div class="row">
     <div class="form-group col">
@@ -133,13 +138,15 @@ body{
     </div>
 </div>
 
+<div class="form-group col">
+        @* <label asp-for="mascota.Id">ID </label>         *@
+        <input asp-for="mascota.Id" class="form-control" placeholder="" required="required" readonly type="hidden">
+    </div>
+
  <h2 class="text-center">Datos de la Mascota</h2>
  <div class="row">
 
-     <div class="form-group col">
-        <label asp-for="mascota.Id">ID </label>        
-        <input asp-for="mascota.Id" class="form-control" placeholder="" required="required" readonly>
-    </div>
+     
     <div class="form-group col">
         <label asp-for="mascota.NombreMascota">Nombre </label>        
         <input asp-for="mascota.NombreMascota" class="form-control" placeholder="Ingresa el Nombre" required="required">
