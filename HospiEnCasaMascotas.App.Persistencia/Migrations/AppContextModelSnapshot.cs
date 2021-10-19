@@ -219,14 +219,6 @@ namespace HospiEnCasaMascotas.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Veterinario_NumPermiso");
 
-                    b.Property<string>("contraseña")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Veterinario_contraseña");
-
-                    b.Property<string>("correo")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Veterinario_correo");
-
                     b.Property<string>("especialidad")
                         .HasColumnType("nvarchar(max)");
 

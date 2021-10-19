@@ -19,7 +19,7 @@ namespace HospiEnCasaMascotas.App.Persistencia
      {
          if (!optionsBuilder.IsConfigured)
          {
-             optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HospiEnCasaMascotasData");
+            optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HospiEnCasaMascotasData");
          }
      }   
     }

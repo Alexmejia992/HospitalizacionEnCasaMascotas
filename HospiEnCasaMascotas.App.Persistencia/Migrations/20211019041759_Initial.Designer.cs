@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HospiEnCasaMascotas.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20211017185710_Entidades1")]
-    partial class Entidades1
+    [Migration("20211019041759_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -220,14 +220,6 @@ namespace HospiEnCasaMascotas.App.Persistencia.Migrations
                     b.Property<int>("NumPermiso")
                         .HasColumnType("int")
                         .HasColumnName("Veterinario_NumPermiso");
-
-                    b.Property<string>("contraseña")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Veterinario_contraseña");
-
-                    b.Property<string>("correo")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Veterinario_correo");
 
                     b.Property<string>("especialidad")
                         .HasColumnType("nvarchar(max)");
