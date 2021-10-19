@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using HospiEnCasaMascotas.App.Persistencia;
 using HospiEnCasaMascotas.App.Dominio;
 
-namespace HospiEnCasaMascotas.App.Frontend.Pages
+namespace HospiEnCasaMascotas.App.Frontend.Pages.Vet
 {
     public class RegistroModel : PageModel
     {
