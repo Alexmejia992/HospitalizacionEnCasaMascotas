@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -37,10 +41,10 @@
             background-color: lightblue;
         }
 
-        .desplegable:hover .links {
+        @* .desplegable:hover .links {
             display: block;
             position: absolute;
-        }
+        } *@
     </style>
 </head>
 
@@ -72,14 +76,10 @@
                 </ul>
             </div>
             <form class="form-inline">
-                <a asp-page="/Login/Login" class="btn btn-link mr-3" role="button" aria-disabled="true">Login</a>
-                <div class="desplegable">
-                    <button class="btn btn-secondary">Registro</button>
-                    <div class="links">
-                        <a asp-page="/Registro/Registro">Registro Usuario</a>
-                        <a asp-page="/Vet/RegistroVeterinario">Registro Veterinario</a>
-                    </div>
-                </div>
+                
+                    <partial name="_LoginPartial" /> 
+                
+                
             </form>
         </nav>
     </header>
