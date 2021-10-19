@@ -25,10 +25,11 @@ namespace HospiEnCasaMascotas.App.Frontend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages()
-            .AddRazorPagesOptions(options => {
-                options.RootDirectory = "/Pages";
-            });
+            services.AddRazorPages();
+            services.AddControllersWithViews();
+            // .AddRazorPagesOptions(options => {
+            //     options.RootDirectory = "/Pages";
+            // });
 
             services.AddSingleton<iRepositorioMascota,MascotaRepositorio>();
             services.AddSingleton<iRepositorioMascotaPaciente,MascotaPacienteRepositorio>();
@@ -65,6 +66,7 @@ namespace HospiEnCasaMascotas.App.Frontend
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
