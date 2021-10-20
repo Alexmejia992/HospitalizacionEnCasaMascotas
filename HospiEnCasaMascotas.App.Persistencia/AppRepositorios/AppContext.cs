@@ -19,7 +19,7 @@ namespace HospiEnCasaMascotas.App.Persistencia
      {
          if (!optionsBuilder.IsConfigured)
          {
-            optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =HospiEnCasaMascotasData");
+            optionsBuilder.UseSqlServer("Server=tcp:hospimascotas.database.windows.net,1433;Initial Catalog=HospiMascotasData;Persist Security Info=False;User ID=dem_yamejia;Password=Azure1071166596//;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
          }
      }   
     }

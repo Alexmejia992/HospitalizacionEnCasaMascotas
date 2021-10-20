@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ed6c673a-7ad7-45b1-a3ff-c7e11d86f3cb/resourceGroups/hospimascotas2/providers/Microsoft.Web/sites/hospimascotas2",
+    "appService.deploySubpath": "HospiEnCasaMascotas.App.Frontend\\publish"
+}
