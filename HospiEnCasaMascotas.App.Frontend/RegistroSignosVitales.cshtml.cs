@@ -28,7 +28,7 @@ namespace HospiEnCasaMascotas.App.Frontend.Vet
             }
             public IActionResult OnPost(SignoVital signovital)
             {
-                _RepoVeterinario.AddVeterinario(veterinario);
+                _RepoSignoVital.AddSignoVital(signovital);
              return RedirectToPage("/Vet/RegistroSignosVitales");
 
             }
